@@ -30,5 +30,8 @@ Gitlab让开发团队对他们的代码仓库拥有更多的控制，相比于Gi
 git config user.name 你的github用户名
 git config user.email 邮箱地址
 
+### 提交git commit
+要在消息模块上写入 feat:update 文件名
+
 我的git仓库地址
 https://github.com/chenaaa1/note.git
