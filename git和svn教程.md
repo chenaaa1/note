@@ -34,8 +34,8 @@ git config user.email 邮箱地址
 ### 1.2.3 提交流程
 * 主分支master是稳定版，其分支develop为测试环境，所以自己开发时应该在develop再创建一个分支demo，然后切换到demo分支进行编写
 * git add（暂存文件）
-* git commit（提交文件）
-在vscode中还要在消息模块上写入 feat:update 文件名才能提交成功
+* git commit -m "提交信息"（提交文件）
+在vscode中就是要在消息模块上写入 “提交信息”才能提交成功
 * 切换回develop，使用git pull拉取主分支的代码（因为在你开发时可能已经有人提交了代码到主分支上，所以这里要再次同步一下主分支）
 *  然后在develop下选择git merge合并代码，其中选择合并的分支为你的demo分支
 * 最后如果还有需要的就是git push到github网站上了
